@@ -71,19 +71,28 @@ export class TypescriptComponent {
     //this.showdata("Shailendra ",500);
     // this.variablemethod();
 
-    this.numberMethod();
+    // this.numberMethod();
     // this.stringMethod();
     // this.booleanMethod();
     // this.show();
     // console.log(this.show);
 
+    // this.show2();
+    // console.log(this.show2);
+
+    // this.show3();
+    // console.log(this.show3);
+
+    // this.show4();
+    // console.log(this.show4);
+
     // this.nullMethod();
     // this.anyMethod();
-    //this.sum(10, 20);
+    // this.sum(10, 20);
     // this.sum("10","20");
     // this.sum("hello","hi");
-    //this.arrayMethod();
-    // this.toupleMethod();
+    // this.arrayMethod();
+    this.toupleMethod();
 
 }
 
@@ -142,23 +151,23 @@ variablemethod() {
 // }
 
 toupleMethod() {
-  // let list: [number, string, number, boolean] = [100, "Ajeet Kumar", 10, true];
+  let list: [number, string, number, boolean] = [100, "Dharmendra", 10, true];
 
-  // console.log(list);
-  // console.log(typeof(list));
+  console.log(list);
+  console.log(typeof(list));
 
   var empid: number = 101;
-  var empname: string = "Chandan Kumar";
+  var empname: string = "Shailendra";
 
   let employee: [number, string] = [empid, empname];
 
-  employee = [102, "Ajeet Kumar"];
+  employee = [102, "Lokendra"];
   // employee=[103];
 
-  employee.push(103, "Mohan Singh");
-  employee.push("Rohit Kumar", 10);
+  employee.push(103, "Shailu");
+  employee.push("Monu", 10);
   employee.push(105);
-  employee.push(106, "Rahul", 120, "kjhjkl", "jhkljlk");
+  employee.push(106, "Bittu", 120, "kjhjkl", "jhkljlk");
 
 
 
@@ -232,33 +241,33 @@ anyMethod() {
 
 // }
 
-// nullMethod() {
-//   let num1: null;
-//   let num2 = null;
+nullMethod() {
+  let num1: null;
+  let num2 = null;
 
-//   // num1=12;
-//   // num1=";lk;";
-//   num1 = null;
-//   num1 = undefined;
+  // num1=12;
+  // num1=";lk;";
+  num1 = null;
+  // num1 = undefined;
 
-//   num2 = 12;
-//   num2 = "kjkl";
-//   num2 = true;
+  num2 = 12;
+  num2 = "kjkl";
+  num2 = true;
 
-//   // console.log(typeof(num1));
-//   // console.log(typeof(num2));
-// }
+  // console.log(typeof(num1));
+  console.log(typeof(num2));
+}
 
-// voidMethod() {
-//   let num1: void;
+voidMethod() {
+  let num1: void;
 
-//   // num1=12;
-//   // num1="Hello";
-//   // num1=true;
+  // num1=12;
+  // num1="Hello";
+  // num1=true;
 
-//   num1 = null;
-//   num1 = undefined;
-// }
+  // num1 = null;
+  num1 = undefined;
+}
 
 show() {
   //console.log("Hello");
@@ -285,7 +294,6 @@ numberMethod() {
   let num4 = 20.30;
 
   let num5: number;
-  //num5="l;k;l"
   num5 = 90;
 
   console.log(typeof (num5));
@@ -312,7 +320,7 @@ stringMethod() {
   console.log(typeof (str3));
   console.log(typeof (str4));
 
-  let empname: string = "Chandan Kumar";
+  let empname: string = "Shailendra Jain";
   let empdept: string = "Software Development";
   //before ES6
   let output1: string = empname + " works in the " + empdept + " department.";
