@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TypescriptComponent } from './typescript/typescript.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TypescriptComponent
+    TypescriptComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
