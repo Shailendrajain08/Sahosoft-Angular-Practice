@@ -169,8 +169,6 @@ toupleMethod() {
   employee.push(105);
   employee.push(106, "Bittu", 120, "kjhjkl", "jhkljlk");
 
-
-
   console.log(employee);
   // console.log(employee[1]);
 
