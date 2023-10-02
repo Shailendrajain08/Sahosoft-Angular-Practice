@@ -1,29 +1,29 @@
 <div style="text-align: center;">
     <h1>Welcome to Sanmati Technologies</h1>
-  
-    <div *ngIf="false">Hello World !!</div>
-  
+
+    <!-- <div *ngIf="false">Hello World !!</div> -->
+
     <!-- <div *ngIf="isValid">Hello World !!</div> -->
-    
+
     <!-- <input type="radio" name="rad1" checked (click)="onchange(true)">True
     <input type="radio" name="rad1" (click)="onchange(false)">False
-  
+
     <div *ngIf="isValid">
       Data is Valid !!
     </div>
-  
+
     <div *ngIf="!isValid">
       Data is not Valid !!
     </div> -->
-  
-  
+
+
     <!-- <input type="radio" name="rad1" checked (click)="onchange(true)">Male
     <input type="radio" name="rad1" (click)="onchange(false)">Female
-  
+
     <div *ngIf="isValid">
     I am Male
     </div>
-  
+
     <div *ngIf="!isValid">
       I am Female
     </div> -->
@@ -31,62 +31,301 @@
     <!-- <input type="radio" name="rad1" checked (click)="onchange2('male')">Male
     <input type="radio" name="rad1" (click)="onchange2('female')">Female
     <input type="radio" name="rad1" (click)="onchange2('other')">Other
-  
+
     <div *ngIf="isValid2 == 'male'">
     I am Male
     </div>
-  
+
     <div *ngIf="isValid2 == 'female'">
       I am Female
     </div>
-  
+
     <div *ngIf="isValid2 == 'other'">
         I am Other
       </div> -->
 
     <!-- {{company}} -->
-<!--   
+<!--
     <div *ngIf="company">
       Name : {{company.name}} <br/>
       City : {{company.city}} <br/>
       State : {{company.state}} <br/>
       Country : {{company.country}} <br/>
     </div>
-  
+
     {{mynumenum.two}} -->
-  
+
     <!-- <div *ngIf="mynumenum.two > 10">
       {{mynumenum.two}} is greater than 10
     </div>
     <p>Hello</p>
     <div>Hi</div>
     <span>how are you ?</span>
-  
+
     <ng-template>Hello Sanmati</ng-template> -->
-  
-  
+
+
     <!-- <input type="radio" name="rad1" checked (click)="onchange(true)">Male
     <input type="radio" name="rad1" (click)="onchange(false)">Female
   <br/>
     <div *ngIf="isValid; else elseblock">
       I am Male
     </div>
-  
+
     <ng-template #elseblock>
       I am Female !!
     </ng-template> -->
-  
-    Enter Your Age : <input type="text" #txtval (keyup)="0" /><br/>
-  
+
+    <!-- Enter Your Age : <input type="text" #txtval (keyup)="0" /><br/>
+
     <div *ngIf="txtval.value>'18'; else elseblock">
       You are Elegible for Vote
     </div>
-  
+
     <ng-template #elseblock>
       You are not Elegible for Vote
     </ng-template>
-  
-  
-  
-  
+
+  </div> -->
+
+<!-- --------------------------- Directive Class 2 Data -------------------------------->
+
+
+  <!-- <input type="radio" name="rad1" checked (click)="onchange(true)">Male
+  <input type="radio" name="rad1" (click)="onchange(false)">Female
+<br/>
+  <div *ngIf="isValid; then thenblock; else elseblock"></div> -->
+  <!-- <div *ngIf="isValid; then thenblock; else elseblock"></div>
+  <div *ngIf="isValid; then thenblock; else elseblock"></div>
+  <div *ngIf="isValid; then thenblock; else elseblock"></div>
+  <div *ngIf="isValid; then thenblock; else elseblock"></div> -->
+
+  <!--
+<br/>
+vkjhxgkjxhckjxhclkvjxclkjvxlkc
+<br/>
+<br/>
+vkjhxgkjxhckjxhclkvjxclkjvxlkc
+<br/>
+<br/>
+vkjhxgkjxhckjxhclkvjxclkjvxlkc
+<br/>
+
+
+  <ng-template #thenblock>
+    I am Male !!
+  </ng-template>
+
+  <ng-template #elseblock>
+    I am Female !!
+  </ng-template> -->
+
+
+
+
+  <!-- <ng-template [ngIf]="true">
+    <div>
+      Hello World !!
+    </div>
+  </ng-template> -->
+  <!--
+  <input type="radio" name="rad1" checked (click)="onchange(true)">Male
+  <input type="radio" name="rad1" (click)="onchange(false)">Female
+
+  <ng-template [ngIf]="isValid">
+    <div>
+      I am Male
+    </div>
+  </ng-template>
+
+  <ng-template [ngIf]="!isValid">
+    <div>
+      I am Female
+    </div>
+  </ng-template> -->
+<!--
+  <input type="radio" name="rad1" checked (click)="onchange(true)">Male
+  <input type="radio" name="rad1" (click)="onchange(false)">Female
+  <br />
+
+<ng-template [ngIf]="isValid" [ngIfElse]="elseblock">
+  <div >
+    I am Male
   </div>
+</ng-template>
+
+  <ng-template #elseblock>
+    I am Female !!
+  </ng-template> -->
+
+  <!-- <input type="radio" name="rad1" checked (click)="onchange(true)">Male
+  <input type="radio" name="rad1" (click)="onchange(false)">Female
+<br/>
+
+<ng-template [ngIf]="isValid" [ngIfThen]="thenblock" [ngIfElse]="elseblock"></ng-template>
+
+  <ng-template #thenblock>
+    I am Male !!
+  </ng-template>
+
+  <ng-template #elseblock>
+    I am Female !!
+  </ng-template>  -->
+
+  <!-- <h2>Login Details</h2>
+  <input type="radio" name="rad1" checked (click)="onchange(true)">Student
+  <input type="radio" name="rad1" (click)="onchange(false)">Faculty
+  <app-student *ngIf="isValid"></app-student>
+  <app-faculty *ngIf="!isValid"></app-faculty> -->
+
+  <!-- {{name}} <br/>
+  {{name | uppercase}} <br/> -->
+
+  <!-- {{_msg}} -->
+
+  <!-- <div *ngIf="_msg | async as sms; else elseblock">
+    <b>{{sms}}</b>
+  </div>
+  <ng-template #elseblock>
+      <b>Loading......</b>
+  </ng-template> -->
+
+
+  <!-- --------------------------Directives Class 3--------------------- -->
+
+  <!-- {{employees}} -->
+
+  <!-- <ul>
+    <li *ngFor="let data of employees">
+      ID : {{data.id}} | Name : {{data.name}}
+    </li>
+  </ul> -->
+
+  <!-- <br />
+  <table border="1">
+    <tr>
+      <th>Employee ID</th>
+      <th>Employee Name</th>
+    </tr>
+    <tr *ngFor="let data of employees">
+      <td>{{data.id}}</td>
+      <td>{{data.name}}</td>
+    </tr>
+  </table> -->
+
+  <!-- <ul>
+    <li *ngFor="let data of employees; index as i">
+    {{i}} | ID : {{data.id}} | Name : {{data.name}}
+    </li>
+  </ul> -->
+
+  <!-- <table border="1">
+    <tr>
+      <th>Sr. no.</th>
+      <th>Employee ID</th>
+      <th>Employee Name</th>
+    </tr>
+    <tr *ngFor="let data of employees;index as i">
+      <td>{{i+1}}</td>
+      <td>{{data.id}}</td>
+      <td>{{data.name}}</td>
+    </tr>
+  </table> -->
+
+  <!-- <ul>
+    <ng-template ngFor let-data [ngForOf]="employees" let-i="index">
+    <li>
+    {{i}} | ID : {{data.id}} | Name : {{data.name}}
+    </li>
+  </ng-template>
+  </ul> -->
+
+  <!-- <table border="1">
+    <tr>
+      <th>Sr. no.</th>
+      <th>Employee ID</th>
+      <th>Employee Name</th>
+    </tr>
+    <ng-template ngFor let-data [ngForOf]="employees" let-i="index">
+    <tr>
+      <td>{{i+1}}</td>
+      <td>{{data.id}}</td>
+      <td>{{data.name}}</td>
+    </tr>
+  </ng-template>
+  </table> -->
+
+  <!-- <div *ngFor="let data of employees; index as i;even as iseven; odd as isodd">
+    <font *ngIf="iseven" color="blue"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+
+    <font *ngIf="isodd" color="red"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+  </div> -->
+
+  <!-- <ng-template ngFor let-data [ngForOf]="employees" let-i="index" let-iseven="even" let-isodd="odd">
+  <div>
+    <font *ngIf="iseven" color="blue"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+    <font *ngIf="isodd" color="red"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+  </div>
+</ng-template> -->
+
+
+  <!-- <div *ngFor="let data of employees;index as i; first as isfirst; last as islast">
+   <font *ngIf="isfirst" color="blue"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+   <font *ngIf="!isfirst && !islast" > {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+   <font *ngIf="islast" color="red"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+  </div> -->
+  <!-- <ng-template ngFor let-data [ngForOf]="employees" let-i="index" let-isfirst="first" let-islast="last">
+    <div>
+      <font *ngIf="isfirst" color="blue"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+      <font *ngIf="!isfirst && !islast"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+      <font *ngIf="islast" color="red"> {{i}} | ID : {{data.id}} | Name : {{data.name}}</font>
+    </div>
+  </ng-template> -->
+
+  <!-- {{allemployee}} -->
+
+  <!-- <ul>
+    <li *ngFor="let data of allemployee | async">
+      ID : {{data.id}} | Name : {{data.name}}
+    </li>
+  </ul> -->
+
+  <!-- <ul>
+    <ng-template ngFor let-data [ngForOf]="allemployee|async">
+    <li >
+      ID : {{data.id}} | Name : {{data.name}}
+    </li>
+  </ng-template>
+  </ul> -->
+
+   <button (click)="getalldata()">Refresh</button>
+<br/>
+  <!--<table border="1">
+    <tr>
+      <th>Sr. no.</th>
+      <th>Employee ID</th>
+      <th>Employee Name</th>
+    </tr>
+    <tr *ngFor="let data of employees;index as i; trackBy:fntrackby">
+      <td>{{i+1}}</td>
+      <td>{{data.id}}</td>
+      <td>{{data.name}}</td>
+    </tr>
+  </table> -->
+
+  <table border="1">
+    <tr>
+      <th>Sr. no.</th>
+      <th>Employee ID</th>
+      <th>Employee Name</th>
+    </tr>
+    <ng-template ngFor let-data [ngForOf]="employees" let-i="index" [ngForTrackBy]="fntrackby">
+      <tr>
+        <td>{{i+1}}</td>
+        <td>{{data.id}}</td>
+        <td>{{data.name}}</td>
+      </tr>
+    </ng-template>
+
+  </table>
+
