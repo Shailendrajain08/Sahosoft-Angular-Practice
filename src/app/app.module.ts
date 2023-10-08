@@ -5,16 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TypescriptComponent } from './typescript/typescript.component';
 import { DirectiveComponent } from './directive/directive.component';
-
+import { NgFormsComponent } from './ng-forms/ng-forms.component';
+import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
     TypescriptComponent,
-    DirectiveComponent
+    DirectiveComponent,
+    NgFormsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

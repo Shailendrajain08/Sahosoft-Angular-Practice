@@ -39,28 +39,28 @@ import { Employee } from './employee';
 
 // --------------------- Class 5 Data ---------------------------------
 
-class abc {
-  show1() {
-    console.log("Hello Show1");
-  }
+// class abc {
+//   show1() {
+//     console.log("Hello Show1");
+//   }
 
-  private show2() {
-    console.log("hello Show2");
-  }
-  protected show3() {
-    console.log("Hello Show3");
-  }
-}
+//   private show2() {
+//     console.log("hello Show2");
+//   }
+//   protected show3() {
+//     console.log("Hello Show3");
+//   }
+// }
 
-class xyz extends abc {
+// class xyz extends abc {
 
-  callmethods() {
-    this.show1();
-    //this.show2();
-    this.show3();
-  }
+//   callmethods() {
+//     this.show1();
+//     //this.show2();
+//     this.show3();
+//   }
 
-}
+// }
 
 @Component({
   selector: 'app-root',
@@ -175,7 +175,7 @@ export class AppComponent {
 
 // ------------------------- Class 5 Data --------------------------------
 
-constructor() {// private _abc:abc
+// constructor() {// private _abc:abc
   // _abc.show1();
   //this.switchmethod();
   // this.forMethod();
@@ -188,20 +188,20 @@ constructor() {// private _abc:abc
   // // this.Greet("Hello");
   // this.Greet("Hello", "Ajeet", "Chandan", "Ajeet", "Chandan", "Ajeet", "Chandan", "Ajeet", "Chandan");
   // this.Greet1("Hello", "Ajeet", "Chandan", "Ajeet", "Chandan", "Ajeet", "Chandan", "Ajeet", "Chandan");
-  this.show();
-  this.sumnumber(40,90);
-  this.print();
-}
+//   this.show();
+//   this.sumnumber(40,90);
+//   this.print();
+// }
 
-show=()=>{
-  console.log("Hello World !!");
-}
+// show=()=>{
+//   console.log("Hello World !!");
+// }
 
-sumnumber=(a:number,b:number)=>{
-  console.log(a+b);
-}
+// sumnumber=(a:number,b:number)=>{
+//   console.log(a+b);
+// }
 
-print=()=>console.log("Hello Sahosoft");
+// print=()=>console.log("Hello Sahosoft");
 
 
 // Greet(greeting: string, name: string) {
@@ -229,13 +229,13 @@ print=()=>console.log("Hello Sahosoft");
 
 //rest parameter
 
-Greet(greeting: string, ...name: string[]) {
-  console.log(greeting + ' ' + name.join('/'));
-}
+// Greet(greeting: string, ...name: string[]) {
+//   console.log(greeting + ' ' + name.join('/'));
+// }
 
-Greet1(greeting: string,str:string, ...name: string[]) {
-  console.log(greeting + ' ' + name.join('/'));
-}
+// Greet1(greeting: string,str:string, ...name: string[]) {
+//   console.log(greeting + ' ' + name.join('/'));
+// }
 
 
 // greeting = function () {
@@ -248,7 +248,7 @@ Greet1(greeting: string,str:string, ...name: string[]) {
 
 
 
-switchmethod() {
+// switchmethod() {
   // let day: number = 20;
   // switch (day) {
   //   case 0:
@@ -277,24 +277,24 @@ switchmethod() {
   //     break;
   // }
 
-  let x: number = 10, y: number = 5;
-  switch (x - y) {
-    case 0:
-      console.log("Result : 0");
-      break;
-    case 5:
-      console.log("Result : 5");
-      break;
+//   let x: number = 10, y: number = 5;
+//   switch (x - y) {
+//     case 0:
+//       console.log("Result : 0");
+//       break;
+//     case 5:
+//       console.log("Result : 5");
+//       break;
 
-  }
-}
+//   }
+// }
 
-forMethod() {
+// forMethod() {
   // for (let i = 0; i <= 10; i++) {
   //   console.log(i);
   // }
 
-  let arr1 = [10, 20, 30, 40, 50, 60];
+  // let arr1 = [10, 20, 30, 40, 50, 60];
 
   // for (let i = 0; i < arr1.length; i++) {
   //   console.log(arr1[i]);
@@ -304,32 +304,32 @@ forMethod() {
   //   console.log(val);
   // }
 
-  for (let val in arr1) {
-    // console.log(val);
-    console.log(arr1[val]);
-  }
-}
+//   for (let val in arr1) {
+//      console.log(val);
+//     console.log(arr1[val]);
+//   }
+// }
 
-whileMethod() {
-  let i: number = 2;
-  while (i < 10) {
-    console.log(i);
-    i++;
-  }
-}
+// whileMethod() {
+//   let i: number = 2;
+//   while (i < 10) {
+//     console.log(i);
+//     i++;
+//   }
+// }
 
-dowhileMethod() {
-  let i: number = 20;
-  do {
-    console.log(i);
-    i++
-  } while (i < 10)
-}
+// dowhileMethod() {
+//   let i: number = 20;
+//   do {
+//     console.log(i);
+//     i++
+//   } while (i < 10)
+// }
 
-foreachMethod() {
-  let num = [20, 30, 40, 50.60];
-  num.forEach(function (value) {
-    console.log(value);
-  })
-}
+// foreachMethod() {
+//   let num = [20, 30, 40, 50.60];
+//   num.forEach(function (value) {
+//     console.log(value);
+//   })
+// }
 }
